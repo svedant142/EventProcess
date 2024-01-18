@@ -1,4 +1,4 @@
-CUSTOMERLABS ASSIGMENT - VEDANT SRIVASTAVA
+VEDANT SRIVASTAVA
 
 Used Clean Architecture and Gin framework
 
