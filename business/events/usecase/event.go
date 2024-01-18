@@ -165,7 +165,7 @@ func sendToWebhook(req *entity.ConvertedRequest) (error){
 		return fmt.Errorf("error marshaling EventResponse to JSON: %v", err)
 	}
 	//webhook.site url generated
-	webhookURL := "https://webhook.site/627bb56e-e865-48fb-a005-d4d63c193275"
+	webhookURL := "https://webhook.site/48a67b98-021b-4d19-8ba3-a7167670804f"
 	resp, err := http.Post(webhookURL, "application/json", bytes.NewBuffer(jsonData))
 	if err != nil {
 		return fmt.Errorf("error making HTTP POST request: %v", err)
